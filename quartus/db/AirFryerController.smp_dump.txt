@@ -1,0 +1,22 @@
+
+State Machine - |AirFryerController|AirFryerFSM:air_fryer_fsm|s_previousState
+Name s_previousState.TCool s_previousState.TCook s_previousState.TUserCookTime s_previousState.Topened s_previousState.TStopped s_previousState.TPreheat s_previousState.TIdle s_previousState.TOff 
+s_previousState.TOff 0 0 0 0 0 0 0 0 
+s_previousState.TIdle 0 0 0 0 0 0 1 1 
+s_previousState.TPreheat 0 0 0 0 0 1 0 1 
+s_previousState.TStopped 0 0 0 0 1 0 0 1 
+s_previousState.Topened 0 0 0 1 0 0 0 1 
+s_previousState.TUserCookTime 0 0 1 0 0 0 0 1 
+s_previousState.TCook 0 1 0 0 0 0 0 1 
+s_previousState.TCool 1 0 0 0 0 0 0 1 
+
+State Machine - |AirFryerController|AirFryerFSM:air_fryer_fsm|s_currentState
+Name s_currentState.TCool s_currentState.TCook s_currentState.TUserCookTime s_currentState.Topened s_currentState.TStopped s_currentState.TPreheat s_currentState.TIdle s_currentState.TOff 
+s_currentState.TOff 0 0 0 0 0 0 0 0 
+s_currentState.TIdle 0 0 0 0 0 0 1 1 
+s_currentState.TPreheat 0 0 0 0 0 1 0 1 
+s_currentState.TStopped 0 0 0 0 1 0 0 1 
+s_currentState.Topened 0 0 0 1 0 0 0 1 
+s_currentState.TUserCookTime 0 0 1 0 0 0 0 1 
+s_currentState.TCook 0 1 0 0 0 0 0 1 
+s_currentState.TCool 1 0 0 0 0 0 0 1 

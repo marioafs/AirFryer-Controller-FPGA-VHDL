@@ -1,0 +1,215 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do AirFryerController_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying c:/intelfpga_lite/22.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 18:09:30 on May 23,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity AirFryerController
+# -- Compiling architecture Shell of AirFryerController
+# ** Error: (vcom-11) Could not find work.syncswreg.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(74): (vcom-1195) Cannot find expanded name "work.SyncSWReg".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(74): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.debounceunit.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(89): (vcom-1195) Cannot find expanded name "work.DebounceUnit".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(89): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.debounceunit.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(98): (vcom-1195) Cannot find expanded name "work.DebounceUnit".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(98): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.debounceunit.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(106): (vcom-1195) Cannot find expanded name "work.DebounceUnit".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(106): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.debounceunit.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(114): (vcom-1195) Cannot find expanded name "work.DebounceUnit".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(114): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.debounceunit.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(122): (vcom-1195) Cannot find expanded name "work.DebounceUnit".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(122): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.programreg.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(131): (vcom-1195) Cannot find expanded name "work.ProgramReg".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(131): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.airfryerfsm.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(140): (vcom-1195) Cannot find expanded name "work.AirFryerFSM".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(140): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.pulsegenerator.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(169): (vcom-1195) Cannot find expanded name "work.PulseGenerator".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(169): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.freqdividerk.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(177): (vcom-1195) Cannot find expanded name "work.FreqDividerK".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(177): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.timerauxfsm.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(185): (vcom-1195) Cannot find expanded name "work.TimerAuxFSM".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(185): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.tempauxfsm.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(200): (vcom-1195) Cannot find expanded name "work.TempAuxFSM".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(200): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.bin2bcd8_8.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(217): (vcom-1195) Cannot find expanded name "work.Bin2BCD8_8".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(217): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.bin2bcd8_12.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(225): (vcom-1195) Cannot find expanded name "work.Bin2BCD8_12".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(225): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.bin7segdecoderen.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(246): (vcom-1195) Cannot find expanded name "work.Bin7SegDecoderEn".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(246): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.bin7segdecoderen.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(253): (vcom-1195) Cannot find expanded name "work.Bin7SegDecoderEn".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(253): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.bin7segdecoderen.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(260): (vcom-1195) Cannot find expanded name "work.Bin7SegDecoderEn".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(260): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.bin7segdecoderen.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(269): (vcom-1195) Cannot find expanded name "work.Bin7SegDecoderEn".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(269): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.bin7segdecoderen.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(276): (vcom-1195) Cannot find expanded name "work.Bin7SegDecoderEn".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(276): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.bin7segdecoderen.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(285): (vcom-1195) Cannot find expanded name "work.Bin7SegDecoderEn".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(285): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.timerndes.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(292): (vcom-1195) Cannot find expanded name "work.TimerNDes".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(292): Unknown expanded name.
+# ** Note: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd(308): VHDL Compiler exiting
+# End time: 18:09:30 on May 23,2024, Elapsed time: 0:00:00
+# Errors: 63, Warnings: 0
+# ** Error: c:/intelfpga_lite/22.1std/questa_fse/win64/vcom failed.
+# Error in macro ./AirFryerController_run_msim_rtl_vhdl.do line 8
+# c:/intelfpga_lite/22.1std/questa_fse/win64/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerController.vhd}"
+vcom -reportprogress 300 -work work C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 18:10:01 on May 23,2024
+# vcom -reportprogress 300 -work work C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity AirFryerFSM_Tb
+# -- Compiling architecture Stimulus of AirFryerFSM_Tb
+# ** Error: (vcom-11) Could not find work.airfryerfsm.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(38): (vcom-1195) Cannot find expanded name "work.AirFryerFSM".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(41): near "reset": (vcom-1576) expecting ',' or ')'.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(66): Statement cannot be labeled.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(69): near "wait": (vcom-1576) expecting ';'.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(99): Illegal target for signal assignment.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(99): (vcom-1136) Unknown identifier "s_tempExp".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(105): Illegal target for signal assignment.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(105): (vcom-1136) Unknown identifier "s_tempExp".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(114): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(120): near "s_cooled": (vcom-1576) expecting ';'.
+# ** Note: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(127): VHDL Compiler exiting
+# End time: 18:10:02 on May 23,2024, Elapsed time: 0:00:01
+# Errors: 11, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 18:10:05 on May 23,2024
+# vcom -reportprogress 300 -work work C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity AirFryerFSM_Tb
+# -- Compiling architecture Stimulus of AirFryerFSM_Tb
+# ** Error: (vcom-11) Could not find work.airfryerfsm.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(38): (vcom-1195) Cannot find expanded name "work.AirFryerFSM".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(41): near "reset": (vcom-1576) expecting ',' or ')'.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(66): Statement cannot be labeled.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(69): near "wait": (vcom-1576) expecting ';'.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(99): Illegal target for signal assignment.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(99): (vcom-1136) Unknown identifier "s_tempExp".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(105): Illegal target for signal assignment.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(105): (vcom-1136) Unknown identifier "s_tempExp".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(114): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(120): near "s_cooled": (vcom-1576) expecting ';'.
+# ** Note: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(127): VHDL Compiler exiting
+# End time: 18:10:05 on May 23,2024, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 18:12:02 on May 23,2024
+# vcom -reportprogress 300 -work work C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity AirFryerFSM_Tb
+# -- Compiling architecture Stimulus of AirFryerFSM_Tb
+# ** Error: (vcom-11) Could not find work.airfryerfsm.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(38): (vcom-1195) Cannot find expanded name "work.AirFryerFSM".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(38): Unknown expanded name.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(99): Illegal target for signal assignment.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(99): (vcom-1136) Unknown identifier "s_tempExp".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(105): Illegal target for signal assignment.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(105): (vcom-1136) Unknown identifier "s_tempExp".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(114): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(120): near "s_cooled": (vcom-1576) expecting ';'.
+# ** Note: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(127): VHDL Compiler exiting
+# End time: 18:12:02 on May 23,2024, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 18:13:10 on May 23,2024
+# vcom -reportprogress 300 -work work C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity AirFryerFSM_Tb
+# -- Compiling architecture Stimulus of AirFryerFSM_Tb
+# ** Error: (vcom-11) Could not find work.airfryerfsm.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(38): (vcom-1195) Cannot find expanded name "work.AirFryerFSM".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(38): Unknown expanded name.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(99): Illegal target for signal assignment.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(99): (vcom-1136) Unknown identifier "s_tempExp".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(105): Illegal target for signal assignment.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(105): (vcom-1136) Unknown identifier "s_tempExp".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(114): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(120): near "s_cooled": (vcom-1576) expecting ';'.
+# ** Note: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/TESTBENCH/AirFryerFSM_Tb.vhd(127): VHDL Compiler exiting
+# End time: 18:13:10 on May 23,2024, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerFSM_Tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 18:20:50 on May 23,2024
+# vcom -reportprogress 300 -work work C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerFSM_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity AirFryerFSM_Tb
+# -- Compiling architecture Stimulus of AirFryerFSM_Tb
+# ** Error: (vcom-11) Could not find work.airfryerfsm.
+# ** Error (suppressible): C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerFSM_Tb.vhd(38): (vcom-1195) Cannot find expanded name "work.AirFryerFSM".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerFSM_Tb.vhd(38): Unknown expanded name.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerFSM_Tb.vhd(99): Illegal target for signal assignment.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerFSM_Tb.vhd(99): (vcom-1136) Unknown identifier "s_tempExp".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerFSM_Tb.vhd(105): Illegal target for signal assignment.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerFSM_Tb.vhd(105): (vcom-1136) Unknown identifier "s_tempExp".
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerFSM_Tb.vhd(114): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerFSM_Tb.vhd(120): near "s_cooled": (vcom-1576) expecting ';'.
+# ** Note: C:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/AirFryerFSM_Tb.vhd(127): VHDL Compiler exiting
+# End time: 18:20:51 on May 23,2024, Elapsed time: 0:00:01
+# Errors: 9, Warnings: 0

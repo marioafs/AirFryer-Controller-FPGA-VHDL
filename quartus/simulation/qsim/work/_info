@@ -1,0 +1,504 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/mario/Desktop/quartus/LSD/projeto_final/vfinal/simulation/qsim
+T_opt
+!s110 1716905293
+V3oLb<AoGFM3aPROXlTIX82
+04 23 16 work airfryerfsm_vhd_vec_tst airfryerfsm_arch 1
+=1-38d57a78a837-6655e54c-3d8-1e04
+Z2 !s124 OEM10U2 
+Z3 o-quiet -auto_acc_if_foreign -work work -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1716904442
+VdnaKY9@aEdHE=_2T_8UnJ1
+04 23 16 work timerauxfsm_vhd_vec_tst timerauxfsm_arch 1
+=1-38d57a78a837-6655e1f9-24a-40a0
+R2
+R3
+R4
+n@_opt1
+R5
+R1
+T_opt2
+!s110 1716906151
+V^U1d0aWKi<8i`lVR6VgT52
+04 22 15 work tempauxfsm_vhd_vec_tst tempauxfsm_arch 1
+=1-38d57a78a837-6655e8a7-2b-27b8
+R2
+R3
+R4
+n@_opt2
+R5
+Eairfryercontroller
+Z6 w1716554930
+Z7 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 gn]m8U<PzXZH32IDQ4:hj3
+Z8 DPx10 cycloneive 21 cycloneive_components 0 22 cSe5`^NYM;IRV3WNS^Q7a2
+Z9 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z10 DPx6 altera 11 dffeas_pack 0 22 ^oS01<AhH<ZbI@CNcPk2V0
+Z11 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z12 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z13 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z14 DPx6 altera 28 altera_primitives_components 0 22 Y19K[Kjfb73Y`YfbP9Kf30
+!i122 18
+R1
+Z15 8AirFryerController.vho
+Z16 FAirFryerController.vho
+l0
+L244 1
+VKWDZHL5N0HLBe<OB?oU9_3
+!s100 aJTG><=>miS>W38hLKmHj2
+Z17 OL;C;2021.2;73
+32
+Z18 !s110 1716554933
+!i10b 1
+Z19 !s108 1716554933.000000
+Z20 !s90 -work|work|AirFryerController.vho|
+Z21 !s107 AirFryerController.vho|
+!i113 0
+Z22 o-work work
+Z23 tExplicit 1 CvgOpt 0
+Astructure
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+DEx4 work 18 airfryercontroller 0 22 KWDZHL5N0HLBe<OB?oU9_3
+!i122 18
+l1807
+L327 23967
+VJk]6OO[^^HXMiBL]i:Y1U0
+!s100 =P1aIPPYN_ZjIo?aJ2O1b1
+R17
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Eairfryercontroller_vhd_vec_tst
+Z24 w1716554928
+R12
+R13
+!i122 19
+R1
+Z25 8AirFryerFSM_Wave.vwf.vht
+Z26 FAirFryerFSM_Wave.vwf.vht
+l0
+Z27 L32 1
+VkdZmQ;eMi`GhlQf^1Blhf1
+!s100 j?;2<N3o6oC9g?DB_SjUk1
+R17
+32
+R18
+!i10b 1
+R19
+Z28 !s90 -work|work|AirFryerFSM_Wave.vwf.vht|
+Z29 !s107 AirFryerFSM_Wave.vwf.vht|
+!i113 0
+R22
+R23
+Aairfryercontroller_arch
+R12
+R13
+DEx4 work 30 airfryercontroller_vhd_vec_tst 0 22 kdZmQ;eMi`GhlQf^1Blhf1
+!i122 19
+l63
+L34 46
+VNzlz<SKAjmPF7JYgWA9YA3
+!s100 7ii<e6]P]KK<aKT;B;@X70
+R17
+32
+R18
+!i10b 1
+R19
+R28
+R29
+!i113 0
+R22
+R23
+Eairfryerfsm
+Z30 w1716905290
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+!i122 88
+R1
+R15
+R16
+l0
+Z31 L37 1
+VildUMlPZOPb[J?1[HjFL11
+!s100 gB?coQP5F86OmB4>h5jLj1
+R17
+32
+Z32 !s110 1716905292
+!i10b 1
+Z33 !s108 1716905292.000000
+R20
+R21
+!i113 0
+R22
+R23
+Astructure
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+DEx4 work 11 airfryerfsm 0 22 ildUMlPZOPb[J?1[HjFL11
+!i122 88
+l239
+L66 2063
+VL?11VPPS[gPi5jH^I]9iC1
+!s100 7Y981Xid4:=YSnSHoEfKc1
+R17
+32
+R32
+!i10b 1
+R33
+R20
+R21
+!i113 0
+R22
+R23
+Eairfryerfsm_vhd_vec_tst
+Z34 w1716905288
+R12
+R13
+!i122 89
+R1
+R25
+R26
+l0
+R27
+V1WZzWZ[ZPaGQKGCPI1baQ1
+!s100 5E^0T>`gN=H3[eWCeCO110
+R17
+32
+R32
+!i10b 1
+R33
+R28
+R29
+!i113 0
+R22
+R23
+Aairfryerfsm_arch
+R12
+R13
+DEx4 work 23 airfryerfsm_vhd_vec_tst 0 22 1WZzWZ[ZPaGQKGCPI1baQ1
+!i122 89
+l89
+L34 246
+VG`N;hRFfb[S:T=RYbT;9:0
+!s100 ]d>C[F5F<WBlUAV2ijg1b2
+R17
+32
+R32
+!i10b 1
+R33
+R28
+R29
+!i113 0
+R22
+R23
+Ehard_block
+R6
+R9
+R7
+R11
+R12
+R13
+R8
+!i122 18
+R1
+R15
+R16
+l0
+L35 1
+VB]0;STalBkCB1_B4BXQDW2
+!s100 >mXi5[`cD`bFC`UBKA<om3
+R17
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Astructure
+R9
+R7
+R11
+R12
+R13
+R8
+DEx4 work 10 hard_block 0 22 B]0;STalBkCB1_B4BXQDW2
+!i122 18
+l229
+L108 127
+VFffhSUl??egH@d3Hn=19z1
+!s100 fgk3dWNLfI8HOVAL>`;9`3
+R17
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Etempauxfsm
+Z35 w1716906148
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+!i122 106
+R1
+R15
+R16
+l0
+R31
+V5Kz2El8JQeI`I1X^RHgPB0
+!s100 zAc=3Rdh82GB=Xd>52W>33
+R17
+32
+Z36 !s110 1716906150
+!i10b 1
+Z37 !s108 1716906150.000000
+R20
+R21
+!i113 0
+R22
+R23
+Astructure
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+DEx4 work 10 tempauxfsm 0 22 5Kz2El8JQeI`I1X^RHgPB0
+!i122 106
+l158
+L53 1292
+V0K=b:XGh_LzO`AGVbE9OX2
+!s100 ^G;XhTDzo5@_[>BgRRhoP2
+R17
+32
+R36
+!i10b 1
+R37
+R20
+R21
+!i113 0
+R22
+R23
+Etempauxfsm_vhd_vec_tst
+Z38 w1716906146
+R12
+R13
+!i122 107
+R1
+Z39 8TempFSM_Wave.vwf.vht
+Z40 FTempFSM_Wave.vwf.vht
+l0
+R27
+VJDQfg7=NaEffSJThXBKgR0
+!s100 7bJJDIELbg;SIVhS7kh5S1
+R17
+32
+R36
+!i10b 1
+R37
+Z41 !s90 -work|work|TempFSM_Wave.vwf.vht|
+Z42 !s107 TempFSM_Wave.vwf.vht|
+!i113 0
+R22
+R23
+Atempauxfsm_arch
+R12
+R13
+DEx4 work 22 tempauxfsm_vhd_vec_tst 0 22 JDQfg7=NaEffSJThXBKgR0
+!i122 107
+l63
+Z43 L34 178
+VznAK8ezz7LIDVCBYGZGjz0
+!s100 KA:;>hg3_Gek3<ZJJTEgF2
+R17
+32
+R36
+!i10b 1
+R37
+R41
+R42
+!i113 0
+R22
+R23
+Etimerauxfsm
+Z44 w1716904438
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+!i122 66
+R1
+R15
+R16
+l0
+R31
+V>:e752DE>H2]lDhY?>fOe0
+!s100 f1QI1>ba9GN^WR;C>h6K91
+R17
+32
+Z45 !s110 1716904440
+!i10b 1
+Z46 !s108 1716904440.000000
+R20
+R21
+!i113 0
+R22
+R23
+Astructure
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+DEx4 work 11 timerauxfsm 0 22 >:e752DE>H2]lDhY?>fOe0
+!i122 66
+l158
+L53 1302
+VWmh0z@[>Ol1DbPG:98_lP1
+!s100 TPOA78@Jjc]D1bXfNlEKe3
+R17
+32
+R45
+!i10b 1
+R46
+R20
+R21
+!i113 0
+R22
+R23
+Etimerauxfsm_vhd_vec_tst
+Z47 w1716904437
+R12
+R13
+!i122 67
+R1
+Z48 8TimerFSM_Wave.vwf.vht
+Z49 FTimerFSM_Wave.vwf.vht
+l0
+R27
+VmA[7HiFfkCBk1NOSTJA1B1
+!s100 3@m>8AMm?;FP[EiY^;@Ma3
+R17
+32
+Z50 !s110 1716904441
+!i10b 1
+R46
+Z51 !s90 -work|work|TimerFSM_Wave.vwf.vht|
+Z52 !s107 TimerFSM_Wave.vwf.vht|
+!i113 0
+R22
+R23
+Atimerauxfsm_arch
+R12
+R13
+DEx4 work 23 timerauxfsm_vhd_vec_tst 0 22 mA[7HiFfkCBk1NOSTJA1B1
+!i122 67
+l63
+R43
+VIlXIW1VCmUcfHGDPk=Q0L3
+!s100 LF?094LDo9<MiP66J=^[d3
+R17
+32
+R50
+!i10b 1
+R46
+R51
+R52
+!i113 0
+R22
+R23
