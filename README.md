@@ -15,11 +15,20 @@
 9. [Demonstration Video](#demonstration-video)  
 10. [Notes on Process Behavior](#notes-on-process-behavior)  
 11. [Circuit Implementation Notes](#circuit-implementation-notes)
+12. [Simulation](#simulation)
 
 
 ## Introduction
 
-This project implements a digital control system for an AirFryer using an FPGA. It is based on a finite state machine (FSM) that manages cooking programs, either predefined or user-configurable.
+This project implements a digital control system for an AirFryer using an FPGA. It is based on a finite state machine (FSM) architecture that manages cooking programs, either predefined or user-configurable.
+
+The system is organized into one main controller FSM (`AirFryerFSM`) and two auxiliary logic blocks:
+- `TimerAux` – responsible for countdown timing during cooking phases.
+- `TempAux` – responsible for verifying the cooling process and temperature thresholds.
+
+Although these auxiliary blocks are not FSMs themselves, they are essential for the FSM to function correctly, as they provide key signals (`TimeExp`, `cooled`) that drive transitions between cooking states.
+
+This modular design results in a **partitioned control architecture**, where the main FSM delegates specific functionalities to dedicated support logic modules, ensuring better modularity, readability, and reusability.
 
 ## Features
 
@@ -178,3 +187,24 @@ The following video demonstrates the AirFryer control system running on the Tera
   - `BIN2BCD8_8` and `BIN2BCD8_12` (BCD encoders)
   - `BIN7SEGDECODER` (7-segment decoders)
   - Each decoder has an `EN` input, controlled by `AirFryerFSM` signals (`RegTime`, `RegTempo`, `RegProg`) to enable display depending on the state.
+
+## Simulation
+
+To validate the behaviour of the system, simulation was performed using **Quartus Prime** and its **University Program VWF (Vector Waveform File)** tool. This allowed for functional verification of the main FSM and the two auxiliary logic blocks under different conditions and inputs.
+
+Below are the simulation results of each module:
+
+### Simulation of `AirFryerFSM`  
+This waveform demonstrates the state transitions and output signals of the main FSM responsible for managing the Air Fryer's operation.
+
+![AirFryerFSM Simulation](images/AirFryerFSM_Wave.png)
+
+### Simulation of `TimerAux` block  
+This waveform illustrates the timer management logic, which runs on the negated clock and exchanges signals with the main FSM, providing key timing signals for cooking phases.
+
+![TimerAuxFSM Simulation](images/TimerAuxFSM_Wave.png)
+
+### Simulation of `TempAux` block  
+This waveform shows the temperature control logic, also running on the negated clock and interacting with the main FSM by signalling cooling and temperature threshold events.
+
+![TempAuxFSM Simulation](images/TempAuxFSM_Wave.png)
