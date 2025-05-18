@@ -2,21 +2,30 @@
 
 # Index
 
-1. [Introduction](#introduction)  
-2. [Features](#features)  
-3. [Block Diagram](#block-diagram)  
-4. [Inputs](#inputs)  
-5. [Outputs](#outputs)  
-6. [Program Definitions](#program-definitions)  
-7. [State Machine Diagram](#state-machine-diagram)  
-8. [PROCESS](#process)  
+1. [Author](#Author)
+2. [Introduction](#introduction) 
+3. [Features](#features)  
+4. [Block Diagram](#block-diagram)  
+5. [Inputs](#inputs)  
+6. [Outputs](#outputs)  
+7. [Program Definitions](#program-definitions)  
+8. [State Machine Diagram](#state-machine-diagram)  
+9. [PROCESS](#process)  
    - [Normal Mode](#normal-mode)  
    - [USER MODE](#user-mode)  
-9. [Demonstration Video](#demonstration-video)  
-10. [Notes on Process Behavior](#notes-on-process-behavior)  
-11. [Circuit Implementation Notes](#circuit-implementation-notes)
-12. [Simulation](#simulation)
+10. [Demonstration Video](#demonstration-video)  
+11. [Notes on Process Behavior](#notes-on-process-behavior)  
+12. [Circuit Implementation Notes](#circuit-implementation-notes)
+13. [Simulation](#simulation)
 
+---
+
+## Author
+
+This project was completed as part of the **Digital Systems Laboratory** course in the **1st Cycle Degree in Computer and Informatics Engineering** at the **University of Aveiro** by:
+**Mario Silva**
+
+---
 
 ## Introduction
 
@@ -30,18 +39,24 @@ Although these auxiliary blocks are not FSMs themselves, they are essential for 
 
 This modular design results in a **partitioned control architecture**, where the main FSM delegates specific functionalities to dedicated support logic modules, ensuring better modularity, readability, and reusability.
 
+The system was developed using VHDL, simulated in Quartus, and tested on a Terasic DE2-115 development kit.
+
+---
+
 ## Features
 
 - **Input Controls:** Switches and buttons to select mode, adjust time/temperature, and control the oven door.  
 - **Outputs:** LEDs and 7-segment displays showing system status, temperature, time, and active program.  
 - **Subsystems:** Timekeeping, cooling, and user interaction modules ensure safe and accurate operation.
 
-The system was developed using VHDL, simulated in Quartus, and tested on a Terasic DE2-115 development kit. This project was completed as part of the course *Laboratório de Sistemas Digitais* (Digital Systems Laboratory) in the _Licenciatura em Engenharia de Computadores e Informática_ (**Bachelor’s Degree in Computer Engineering and Informatics**) at the University of Aveiro.
+---
 
 ## Block Diagram
 
 ![Block schematic of the AirFryer control system](/images/diagram.png)
 
+
+---
 
 ## Inputs
 
@@ -60,6 +75,8 @@ The system was developed using VHDL, simulated in Quartus, and tested on a Teras
 | `KEY(2)`   | Increase temperature                                         |
 | `KEY(3)`   | Decrease temperature                                         |
 
+---
+
 ## Outputs
 
 | Output       | Description                                                  |
@@ -72,6 +89,8 @@ The system was developed using VHDL, simulated in Quartus, and tested on a Teras
 | `HEX0-HEX2`  | Temperature in decimal                                       |
 | `HEX4-HEX5`  | Time in decimal                                              |
 | `HEX6`       | Selected program                                             |
+
+---
 
 ## Program Definitions
 
@@ -94,6 +113,8 @@ Program 2 corresponds to USER MODE.
 ## State Machine Diagram
 
 ![Mealy state machine diagram of the AirFryer control system](/images/mealy-state-diagram.png)
+
+---
 
 ## PROCESS
 
@@ -141,8 +162,7 @@ If program 2 is selected:
 
 The following video demonstrates the AirFryer control system running on the Terasic DE2-115 FPGA board. It shows the transition between system states, user interaction through switches and buttons, and visual outputs on the 7-segment display and LEDs.
 
-[▶️ Watch the demo video](https://youtu.be/GLQ2H5iS4jo)
-
+[![Watch the demo](https://img.youtube.com/vi/GLQ2H5iS4jo/hqdefault.jpg)](https://www.youtube.com/shorts/GLQ2H5iS4jo)
 
 ---
 
@@ -187,6 +207,8 @@ The following video demonstrates the AirFryer control system running on the Tera
   - `BIN2BCD8_8` and `BIN2BCD8_12` (BCD encoders)
   - `BIN7SEGDECODER` (7-segment decoders)
   - Each decoder has an `EN` input, controlled by `AirFryerFSM` signals (`RegTime`, `RegTempo`, `RegProg`) to enable display depending on the state.
+
+---
 
 ## Simulation
 
